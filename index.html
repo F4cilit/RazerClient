@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>razerclient.hu | RazerClient</title>
+  <meta name="description" content="RazerClient - gyors, saját Minecraft kliens launcherrel, Discord Presence-szel, PvP funkciókkal és külön épülő OptiFine ággal.">
+  <meta property="og:title" content="razerclient.hu | RazerClient">
+  <meta property="og:description" content="Saját Minecraft kliens letöltéssel, közösséggel és külön ágakkal.">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="razerclient.hu">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-glow page-glow-a"></div>
+  <div class="page-glow page-glow-b"></div>
+
+  <div class="site-shell">
+    <header class="hero">
+      <nav class="topbar">
+        <a class="brand" href="#">
+          <div class="brand-badge">RC</div>
+          <div class="brand-copy">
+            <strong>RazerClient</strong>
+            <span>razerclient.hu</span>
+          </div>
+        </a>
+
+        <div class="nav-pill">
+          <a href="#home">Kezdőlap</a>
+          <a href="#features">Funkciók</a>
+          <a href="#download">Letöltés</a>
+          <a href="#community">Discord</a>
+          <a href="#status">Státusz</a>
+        </div>
+
+        <button class="top-button" id="downloadTop">Kliens letöltése</button>
+      </nav>
+
+      <section class="hero-panel" id="home">
+        <div class="hero-copy">
+          <p class="eyebrow">MAGYAR MINECRAFT CLIENT</p>
+          <h1>A legélesebb saját Minecraft kliens.</h1>
+          <p class="hero-text">
+            Saját launcher, Discord Presence, PvP feature-ök, egyedi GUI, HUD és külön OptiFine ág.
+            A RazerClient nem csak egy mod, hanem egy teljes kliensélmény.
+          </p>
+
+          <div class="hero-actions">
+            <button class="hero-cta primary" id="downloadHero">
+              <span class="cta-title">Kliens Letöltése</span>
+              <span class="cta-sub">Windows 10 / 11</span>
+            </button>
+
+            <button class="hero-cta secondary" id="discordHero">
+              <span class="cta-title">Discord Szerver</span>
+              <span class="cta-sub">Hírek, build-ek, közösség</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <div class="status-card">
+            <div class="status-head">
+              <span class="status-chip live">LIVE</span>
+              <span class="status-label">RazerClient Branches</span>
+            </div>
+            <div class="status-list">
+              <div class="status-item active">
+                <strong>RazerClient 1.18.2</strong>
+                <small>Stabil ág</small>
+              </div>
+              <div class="status-item">
+                <strong>OptiFine 1.18.2</strong>
+                <small>Külön branch épül</small>
+              </div>
+              <div class="status-item">
+                <strong>RazerClient 1.21.8</strong>
+                <small>Következő verzió</small>
+              </div>
+            </div>
+          </div>
+
+          <div class="energy-ring">
+            <div class="energy-core"></div>
+          </div>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="section cards-section" id="features">
+        <div class="section-head">
+          <p class="eyebrow">FŐ TERÜLETEK</p>
+          <h2>A RazerClient köré épített teljes rendszer.</h2>
+        </div>
+
+        <div class="cards-grid">
+          <article class="info-card">
+            <span class="card-kicker">01</span>
+            <h3>Launcher</h3>
+            <p>Saját indítóablak névvel, RAM-mal, logokkal, profilokkal és külön klienságakkal.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-kicker">02</span>
+            <h3>Discord Presence</h3>
+            <p>Saját logóval és kliensnévvel látszol, nem csak sima Minecraft activityként.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-kicker">03</span>
+            <h3>GUI + HUD</h3>
+            <p>Egyedi menü, widgetek, saját színvilág és klienses vizuális réteg.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-kicker">04</span>
+            <h3>PvP Funkciók</h3>
+            <p>Hit color, no hurt cam, damage tilt, sprint, zoom és további combat fókuszú elemek.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-kicker">05</span>
+            <h3>Pack Support</h3>
+            <p>OptiFine-szerű textúrapack kompatibilitás Continuity, CIT Resewn és más modulokkal.</p>
+          </article>
+          <article class="info-card">
+            <span class="card-kicker">06</span>
+            <h3>Külön Ágak</h3>
+            <p>Fabric stable, OptiFine branch és jövőbeli újabb verziós branch külön készül.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section split-section" id="download">
+        <div class="download-card">
+          <p class="eyebrow">LETÖLTÉS</p>
+          <h2>Indítsd a RazerClientet a saját launcherrel.</h2>
+          <p>
+            A stabil központi ág jelenleg a RazerClient 1.18.2. A későbbi publikus verzióknál
+            a cél a `%AppData%\RazerClient` telepítés és a teljesen saját kliensélmény.
+          </p>
+          <button class="hero-cta primary wide" id="downloadSection">
+            <span class="cta-title">Launcher Letöltése</span>
+            <span class="cta-sub">razerclient.hu / Windows kliens</span>
+          </button>
+        </div>
+
+        <div class="mini-panel" id="status">
+          <p class="eyebrow">FEJLESZTÉSI STÁTUSZ</p>
+          <div class="mini-list">
+            <div class="mini-row">
+              <strong>1.18.2 Stable</strong>
+              <span class="tag ready">READY</span>
+            </div>
+            <div class="mini-row">
+              <strong>OptiFine ág</strong>
+              <span class="tag building">BUILDING</span>
+            </div>
+            <div class="mini-row">
+              <strong>1.21.8 ág</strong>
+              <span class="tag queued">NEXT</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section faq-section">
+        <div class="section-head">
+          <p class="eyebrow">GYIK</p>
+          <h2>Gyors válaszok.</h2>
+        </div>
+
+        <div class="faq-grid">
+          <article class="faq-card">
+            <h3>Mi a cél?</h3>
+            <p>Egy saját brandelt Minecraft kliens, launcherrel, weboldallal, Discord Presence-szel és külön klienságakkal.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Lesz publikus telepítő?</h3>
+            <p>Igen, a hosszú távú cél egy letölthető kliens, ami `%AppData%` alá települ.</p>
+          </article>
+          <article class="faq-card">
+            <h3>Lesz OptiFine alapú ág?</h3>
+            <p>Igen, a RazerClient OptiFine 1.18.2 külön branchként épül.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section community-strip" id="community">
+        <div class="community-box">
+          <div>
+            <p class="eyebrow">KÖZÖSSÉG</p>
+            <h2>RazerClient közösség és hírek</h2>
+            <p>Discord, changelog, build-ek és jövőbeli letöltések egy helyen.</p>
+          </div>
+          <div class="community-buttons">
+            <button class="top-button alt" id="discordButton">Discord</button>
+            <button class="top-button alt" id="statusButton">Roadmap</button>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
