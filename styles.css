@@ -162,6 +162,15 @@ h1 {
   background: rgba(255,255,255,0.04);
 }
 
+.top-link,
+.hero-link,
+.community-link {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
 .hero-panel {
   display: grid;
   grid-template-columns: 1.05fr 0.95fr;
